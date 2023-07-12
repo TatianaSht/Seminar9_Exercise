@@ -39,7 +39,6 @@ int SumNumbers(int numFirst, int numSecond)
         return numSecond + SumNumbers(numFirst, numSecond - 1);
     }
     else return numSecond + SumNumbers(numSecond + 1, numFirst);
-   
 }
 
 
